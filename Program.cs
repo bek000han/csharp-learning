@@ -707,6 +707,59 @@ namespace Stash
             }
             Console.WriteLine(sum);
             */
+            
+            /*
+            
+            FIND DUPLICATES ALGORITHM, NO LINQ, NO ARRAY LIBRARY
+            
+            *
+            string input1 = Console.ReadLine();
+            string[] total = input1.Split(' ');
+            int duplicate = 0;
+            int corrections = 0;
+            string uniquevals = "";
+            bool flag = false;
+
+            foreach (string val in total)
+            {
+                if (uniquevals.Contains(val))
+                {
+                    continue;
+                }
+                else
+                {
+                    uniquevals += val + " ";
+                }
+            }
+            uniquevals = uniquevals.Remove(uniquevals.Length-1);
+
+
+            string[] uniquevalsarray = uniquevals.Split(' ');
+
+            for (int i = 0; i < uniquevalsarray.Length; i++)
+            {
+                for (int j = 0; j < total.Length; j++)
+                {
+                    if (!uniquevalsarray[i].Equals(total[j]))
+                    {
+                        continue;
+                    }
+                    else
+                    {
+                        duplicate++;
+                        flag = true;
+                    }
+                }
+                if (flag == true)
+                {
+                    flag = false;
+                    corrections++;
+                }
+            }
+
+            Console.Write(duplicate-corrections);
+            */
+            
         }
     }
 }
