@@ -10,7 +10,7 @@ namespace Stash
         static void Main(string[] args)
         {
             /*
-             * EVEN NUMBERS WITH MODULUS
+             * EVEN NUMBERS WITH MODULUS ALGORITHM
              * 
             int sum = 0;
             int input1 = Convert.ToInt32(Console.ReadLine());
@@ -33,8 +33,12 @@ namespace Stash
             Console.WriteLine(sum);
              */
 
+            
+            
+            
+            
             /*
-             * TRIANGLE RECOGNITION
+             * TRIANGLE RECOGNITION ALGORITHM
              * 
             double sideA = Convert.ToDouble(Console.ReadLine());
             double sideB = Convert.ToDouble(Console.ReadLine());
@@ -62,22 +66,12 @@ namespace Stash
             }
             */
 
+         
+            
+            
+            
             /*
-             * ORDERING NUMS NO SHORTCUT
-             * 
-            double number1 = Convert.ToDouble(Console.ReadLine());
-            double number2 = Convert.ToDouble(Console.ReadLine());
-            double number3 = Convert.ToDouble(Console.ReadLine());
-            double[] numbers = { number1, number2, number3 };
-
-            Array.Sort(numbers);
-            Array.Reverse(numbers);
-
-            Console.WriteLine($"{numbers[0]} {numbers[1]} {numbers[2]}");
-            */
-
-            /*
-             * NEGATIVE RECOGNITION
+             * NEGATIVE RECOGNITION ALGORITHM
              * 
              double input = Convert.ToDouble(Console.ReadLine());
 
@@ -96,7 +90,7 @@ namespace Stash
             */
 
             /*
-             * MONTHS CONVERSION
+             * MONTHS CONVERSION ALGORITHM
              * 
              int input = Convert.ToInt32(Console.ReadLine());
 
@@ -143,8 +137,13 @@ namespace Stash
                     break;
             */
 
+            
+            
+            
+            
+            
             /*
-             * ROOTS OF AN EQUATION
+             * ROOTS OF AN EQUATION ALGORITHM
              * 
             double a = Convert.ToDouble(Console.ReadLine());
             double b = Convert.ToDouble(Console.ReadLine());
@@ -176,8 +175,12 @@ namespace Stash
             }
             */
 
+            
+            
+            
+            
             /*
-             * ASCII DETERMINATION
+             * ASCII DETERMINATION FROM N ALGORITHM
              * 
             string vowels = "aeiouAEIOU";
             string digits = "1234567890";
@@ -201,8 +204,12 @@ namespace Stash
             }
             */
 
+            
+            
+            
+            
             /*
-             * CURZON NUMBERS
+             * CURZON NUMBERS OF N ALGORITHM
              * 
             try
             {
@@ -231,8 +238,11 @@ namespace Stash
             }
             */
 
-            /*
-             * ASCII CORRESPONDENCE
+            
+            
+            
+            /* 
+             * ASCII CORRESPONDENCE ALGORITHM
              * 
             int number = Convert.ToInt32(Console.ReadLine());
             char ascii = Convert.ToChar(number);
@@ -262,8 +272,11 @@ namespace Stash
             }
             */
 
+            
+            
+            
             /*
-             * LARGEST NUM NO SHORTCUT
+             * LARGEST NUM NO SHORTCUT ALGORITHM
              * 
             double input1 = Convert.ToDouble(Console.ReadLine());
             double input2 = Convert.ToDouble(Console.ReadLine());
@@ -286,8 +299,12 @@ namespace Stash
             }
             */
 
+            
+            
+            
+            
             /*
-             * MIXING STRINGS
+             * MIXING STRINGS ALGORITHM
              * 
             string input1 = Console.ReadLine();
             string input2 = Console.ReadLine();
@@ -312,8 +329,12 @@ namespace Stash
             }
             */
 
+            
+            
+            
+            
             /*
-             * PRIME NUMBERS BETWEEN 2 AND N
+             * PRIME NUMBERS BETWEEN 2 AND N ALGORITHM SIMPLIFIED
              * 
              int n = Convert.ToInt32(Console.ReadLine());
             int[] primes = { 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 
@@ -350,8 +371,13 @@ namespace Stash
                 }
             */
 
+            
+            
+            
+            
+            
             /*
-             * ALL ODD BETWEEN INPUTS MULTILPIED
+             * ALL ODD BETWEEN INPUTS MULTILPIER ALGORITHM
              * 
             int input1 = Convert.ToInt32(Console.ReadLine());
             int input2 = Convert.ToInt32(Console.ReadLine());
@@ -414,8 +440,12 @@ namespace Stash
                 }
             */
 
+            
+            
+            
+            
             /*
-             * ALL LETTERS BETWEEN TWO LETTERS
+             * ALL LETTERS BETWEEN TWO LETTERS ALGORITHM
              * 
             char input1 = Convert.ToChar(Console.ReadLine());
             char input2 = Convert.ToChar(Console.ReadLine());
@@ -533,8 +563,12 @@ namespace Stash
                 }
             */
 
+            
+            
+            
+            
             /*
-             * NEXT FIBONACCI NUMBER AFTER VALUE N
+             * NEXT FIBONACCI NUMBER AFTER N ALGORITHM
              * 
             int max = Convert.ToInt32(Console.ReadLine());
             if (max == 1)
@@ -561,8 +595,12 @@ namespace Stash
             }
             */
 
+            
+            
+            
+            
             /*
-             * SERIES OF NUMBERS, SMALLEST
+             * DISPLAY SMALLEST FROM SERIES OF INPUTS
              * 
              var inputstart = Console.ReadLine();
             int small = Convert.ToInt32(inputstart);
@@ -588,8 +626,12 @@ namespace Stash
                 }
             */
 
+            
+            
+            
+            
             /*
-             * HARMONIC SERIES FOR N
+             * HARMONIC SERIES FOR N ALGORITHM
              * 
             try
             {
@@ -626,7 +668,7 @@ namespace Stash
             */
 
             /*
-             * FACTORIAL CALCULATION
+             * FACTORIAL CALCULATION ALGORITHM
              * 
             try
             {
@@ -652,8 +694,11 @@ namespace Stash
             }
             */
 
+            
+            
+            
             /*
-             * FLOYD'S TRIANGLE FOR N
+             * FLOYD'S TRIANGLE FOR N ALGORITHM
              * 
             int input = Convert.ToInt32(Console.ReadLine());
             int sum = 1;
@@ -670,6 +715,9 @@ namespace Stash
             }
             */
 
+            
+            
+            
             /*
              * ROMAN TO DECIMAL CONVERTER
              * 
@@ -707,11 +755,14 @@ namespace Stash
             }
             Console.WriteLine(sum);
             */
+         
+            
+            
+            
+            
             
             /*
-            
-            FIND DUPLICATES ALGORITHM, NO LINQ, NO ARRAY LIBRARY
-            
+            FIND DUPLICATES ALGORITHM, NO LINQ-ARRAY LIBRARY
             *
             string input1 = Console.ReadLine();
             string[] total = input1.Split(' ');
@@ -731,9 +782,8 @@ namespace Stash
                     uniquevals += val + " ";
                 }
             }
+            
             uniquevals = uniquevals.Remove(uniquevals.Length-1);
-
-
             string[] uniquevalsarray = uniquevals.Split(' ');
 
             for (int i = 0; i < uniquevalsarray.Length; i++)
@@ -756,9 +806,257 @@ namespace Stash
                     corrections++;
                 }
             }
-
             Console.Write(duplicate-corrections);
             */
+            
+            
+            
+            
+            
+            /*
+            * ISOGRAM WORD DETERMINATION ALGORITHM
+            *
+            string input = Console.ReadLine();
+            input = input.ToLower();
+            string checkerWord = Convert.ToString(input.ElementAt(0));
+            char currentletter = ' ';
+            
+
+            for (int i = 1; i < input.Length; i++)
+            {
+                currentletter = input[i];
+                if (checkerWord.Contains(currentletter))
+                {
+                    Console.WriteLine("False");
+                    return;
+                }
+                else
+                {
+                    checkerWord += currentletter;
+                }
+                if (checkerWord.Length == input.Length)
+                {
+                    Console.WriteLine("True");
+                }
+                
+         */
+            
+            
+            
+            
+            
+         /*
+         *  REMOVE ALL DUPLICATES FROM INPUT
+         *
+         string input = Console.ReadLine();
+            string checkerWord = Convert.ToString(input.ElementAt(0));   
+
+            for (int i = 0; i < input.Length; i++)
+            {
+                if (checkerWord.Contains(input[i]))
+                {
+                    continue;
+                }
+                else
+                {
+                    checkerWord += input[i];
+                }
+            }
+            Console.WriteLine(checkerWord);
+            
+           */
+            
+            
+            
+            
+            
+            /*
+           *  WORD NEST LOOP DETERMINATION ALGORITHM
+           *
+           string input1 = Console.ReadLine();
+            string input2 = Console.ReadLine();
+            string comparison = "";
+            int nesting = 0;
+            int index = 0;
+            string start = "";
+            string end = "";
+
+            if (input1 == input2)
+            {
+                Console.WriteLine(0);
+            }
+            else
+            {
+                while (true)
+                {
+                    start = "";
+                    end = "";
+                    if (input2.Contains(input1))
+                    {
+                        index = input2.IndexOf(input1);
+                        for (int i = 0; i < index; i++)
+                        {
+                            start += input2[i];
+                        }
+                        for (int i = index + input1.Length; i < input2.Length; i++)
+                        {
+                            end += input2[i];
+                        }
+                        input2 = start + end;
+                        nesting++;
+                    }
+                    else
+                    {
+                        Console.WriteLine(nesting-1);
+                        return;
+                    }
+                }
+            }
+            */
+            
+            
+            
+            
+            /*
+            *  REMOVE ALL DUPLICATE PUNCTUATION ALGORITHM
+            *
+            string input = Console.ReadLine();
+            string punctuation = ".,?!;-()[]{};'\"";
+            string output = "" + input[0];
+
+            for (int i = 1; i < input.Length; i++)
+            {
+                if (input[i] == input[i-1] && punctuation.Contains(input[i]))
+                {
+                    continue;
+                }
+                else
+                {
+                    output += input[i];
+                }
+            }
+
+            Console.WriteLine(output);
+            */
+            
+            
+            
+            
+            
+            /*
+            * BUBBLE SORT FROM 2 MERGED ARRAYS ALGORITHM
+            *
+            string input1 = Console.ReadLine();
+            string input2 = Console.ReadLine();
+
+            string arraysum = input1 + " " + input2;
+
+            string[] total = arraysum.Split(' ');
+
+            for (int i = 0; i < total.Length + 1; i++)
+            {
+                for (int j = i + 1; j < total.Length; j++)
+                {
+                    if (Convert.ToInt32(total[i]) < Convert.ToInt32(total[j]))
+                    {
+                        string temp = total[i];
+                        total[i] = total[j];
+                        total[j] = temp;
+                    }
+                    else
+                    {
+                        continue;
+                    }
+                }
+            }
+            
+            foreach (string item in total)
+            {
+                Console.Write(item + " ");
+            }
+            */
+            
+            
+            
+            
+            
+            
+            /*
+            * INSERT INPUT IN CORRECT ORDERED POSITION INTO EXISTING ARRAY 
+            *
+            string input = Console.ReadLine();
+            int input2 = Convert.ToInt32(Console.ReadLine());
+            string[] inputs = input.Split(' ');
+            bool flag = false;
+            int i = 0;
+
+            while (flag == false && i < inputs.Length)
+            {
+                if (Convert.ToInt32(inputs[i]) > input2)
+                {
+                    Console.Write(input2 + " ");
+                    Console.Write(inputs[i] + " ");
+                    flag = true;
+                }
+                else
+                {
+                    Console.Write(inputs[i] + " ");
+                    i++;
+                }
+            }
+
+            for (int j = i + 1; j < inputs.Length; j++)
+            {
+                Console.Write(inputs[j] + " ");
+            }
+
+            if (i == inputs.Length)
+            {
+                Console.Write(input2);
+            }
+            */
+            
+            
+            
+            
+            
+            
+            /*
+            * MISSING VALUE DETERMINATION ALGORITHM
+            *
+            string[] input = (Console.ReadLine()).Split(' ');
+            int[] numbers = Array.ConvertAll(input, int.Parse);        
+            int count = 0;
+            int internalcount = 0;
+            
+            for (int i = numbers[0]; i < numbers[numbers.Length-1]; i++)
+            {
+                count = 0;
+                for (int j = 0; j < numbers.Length; j++)
+                {
+                    if (i != numbers[j])
+                    {
+                        count++;
+                    }
+                    if (count == numbers.Length)
+                    {
+                        Console.Write(i + " ");
+                        internalcount++;
+                    }
+                    
+                }
+            }
+
+            if (internalcount == 0)
+            {
+                Console.WriteLine("There is no missing link!");
+            }
+            */
+            
+            
+            
+            
+            
             
         }
     }
