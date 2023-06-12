@@ -3,7 +3,7 @@
 ### **Description**
 This is an archive of all the tasks I have completed on my Introduction to Programming course, which commenced on September 14th 2022 and ended on December 17th 2022. This was a foundational course meant to welcome and immerse future programmers into the field; with C# serving as the introductory programming language due to its intuitive design and the large community of experts and learners alike.
 
-### **Skills Learnt**
+### **Skills I Gained**
 * Logic and algorithmic thinking
   * Decomposition
   * Execution
